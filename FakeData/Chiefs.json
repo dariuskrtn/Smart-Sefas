@@ -1,0 +1,40 @@
+{
+  "ChiefList": [
+    {
+      "Name": "Dwight",
+      "Surname": "Schrute",
+      "Education": "Phd. in theoretical physics",
+      "Description": "I can do cool stuff out of not so cool stuff",
+      "Location": "Vilnius",
+      "VisitRadius": 15,
+      "OccupiedCalendar": [
+        {
+          "From": "2018-10-24 12:00:00",
+          "To": "2018-10-24 18:00:00"
+        },
+        {
+          "From": "2018-10-25 15:00:00",
+          "To": "2018-10-25 18:00:00"
+        }
+      ]
+    },
+    {
+      "Name": "Michael",
+      "Surname": "Scott",
+      "Education": "Nothing",
+      "Description": "Cooking in The Office.",
+      "Location": "Vilnius",
+      "VisitRadius": 20,
+      "OccupiedCalendar": [
+        {
+          "From": "2018-10-26 12:00:00",
+          "To": "2018-10-26 18:00:00"
+        },
+        {
+          "From": "2018-10-27 15:00:00",
+          "To": "2018-10-27 18:00:00"
+        }
+      ]
+    }
+  ]
+}
