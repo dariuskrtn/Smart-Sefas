@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+        <script src="https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.6/dist/global/Rx.umd.js"></script>
+        <script src="js/linq.js"></script>
+        <script src="js/DataService/FakeDataService.js"></script>
+        <script src="js/MainService.js"></script>
+        <script>
+            let chiefsObservable = mainService.GetDataService().QueryChiefs(null, null, ["Sushi"], null);
+            chiefsObservable.subscribe(
+                chief => {
+                    console.log(chief);
+                }
+            );
+        </script>
+    </head>
+
+    <body>
+        <div class="ChiefList"></div>
+    </body>
+
+</html>

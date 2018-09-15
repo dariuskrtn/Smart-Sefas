@@ -7,6 +7,7 @@
       "Description": "I can do cool stuff out of not so cool stuff",
       "Location": "Vilnius",
       "VisitRadius": 15,
+      "Tags": ["Sushi", "Japanese", "Chinese"],
       "OccupiedCalendar": [
         {
           "From": "2018-10-24 12:00:00",
@@ -25,6 +26,7 @@
       "Description": "Cooking in The Office.",
       "Location": "Vilnius",
       "VisitRadius": 20,
+      "Tags": ["Burgers", "Stuff", "Acid", "Meth"],
       "OccupiedCalendar": [
         {
           "From": "2018-10-26 12:00:00",
