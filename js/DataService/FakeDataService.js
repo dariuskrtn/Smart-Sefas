@@ -14,18 +14,29 @@ function FakeDataService() {
         return subject;
     }
 
+    function ArraysIntersect(arr1, arr2)
+    {
+        let res = Enumerable.from(arr1).where(x => arr2.includes(x)).firstOrDefault();
+        return (res != null);
+    }
+
 
     return {
-        //Returns array of entities matching given arguments.
+
+        GetChief: function(id)
+        {
+            return this.QueryData("Chief", {"id": id});
+        },
+        //Returns observable of entities matching given arguments.
         QueryData: function(entity, args)
         {
             if (entity === "Chief") {
-                return this.QueryChiefs();
+                return this.QueryChiefs(args["id"], args["name"], args["surname"], args["tags"], args["location"]);
             }
-            return [];
+
         },
 
-        QueryChiefs: function(name = null, surname = null, tags = null, location = null)
+        QueryChiefs: function(id = null, name = null, surname = null, tags = null, location = null)
         {
             let subject = new Rx.Subject();
 
@@ -34,6 +45,7 @@ function FakeDataService() {
             chiefsObservable.subscribe(
                 chief =>
                 {
+                    if (id != null && chief.Id !== id) return;
                     if (name != null && chief.Name !== name) return;
                     if (surname != null && chief.Surname !== surname) return;
                     if (location != null && chief.Location !== location) return;
@@ -43,12 +55,6 @@ function FakeDataService() {
             );
 
             return subject;
-        },
-
-        ArraysIntersect: function(arr1, arr2)
-        {
-            let res = Enumerable.from(arr1).where(x => arr2.includes(x)).firstOrDefault();
-            return (res != null);
         },
 
         //Returns ReturnCode based on update completion status.

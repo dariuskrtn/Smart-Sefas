@@ -9,7 +9,7 @@
         <script src="js/DataService/FakeDataService.js"></script>
         <script src="js/MainService.js"></script>
         <script>
-            let chiefsObservable = mainService.GetDataService().QueryChiefs(null, null, ["Sushi"], null);
+            let chiefsObservable = mainService.GetDataService().GetChief(1);
             chiefsObservable.subscribe(
                 chief => {
                     console.log(chief);
