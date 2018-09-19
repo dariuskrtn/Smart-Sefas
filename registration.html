@@ -1,84 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>S.M.A.R.T.Sefas</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <div class="container">
-      <div class="row">
-      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-      <div class="row">
-        <div class="col-lg-50 mb-4">
-         <h3>Registracijos anketa</h3>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Vardas Pavardė:</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Įrašykite savo vardą.">
-                <p class="help-block"></p>
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Telefonas:</label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Įrašykite savo telefono numerį.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Elektroninis paštas:</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Įrašykite savo elektroninio pašto adresą.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Atvykimo vieta (nurodykite tikslų adresą):</label>
-                <input type="text" class="form-control" id="address" required data-validation-required-message="Įrašykite atvykimo vietos adresą.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Atvykimo laikas:</label>
-                <input type="time" class="form-control" id="time" required data-validation-required-message="Įrašykite atvykimo laiką.">
-              </div>
-            </div>
-	    <div class="control-group form-group">
-              <div class="controls">
-                <label>Pasirinkto patiekalo pavadinimas:</label>
-                <input type="text" class="form-control" id="meal" required data-validation-required-message="Įrašykite pasirinkto patiekalo pavadinimą.">
-              </div>
-            </div>
-            <div id="success"></div>
-            <!-- For success/fail messages -->
-            <button type="submit" class="btn btn-primary" id="sendMessageButton">Patvirtinti</button>
-          </form>
+<div class="row">
+  <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+  <div class="row">
+    <div class="col-lg-50 mb-4">
+      <h3>Registracijos anketa</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Vardas Pavardė:</label>
+            <input type="text" class="form-control" id="name" required data-validation-required-message="Įrašykite savo vardą.">
+            <p class="help-block"></p>
+          </div>
         </div>
-      </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Telefonas:</label>
+            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Įrašykite savo telefono numerį.">
+          </div>
+        </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Elektroninis paštas:</label>
+            <input type="email" class="form-control" id="email" required data-validation-required-message="Įrašykite savo elektroninio pašto adresą.">
+          </div>
+        </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Atvykimo vieta (nurodykite tikslų adresą):</label>
+            <input type="text" class="form-control" id="address" required data-validation-required-message="Įrašykite atvykimo vietos adresą.">
+          </div>
+        </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Atvykimo laikas:</label>
+            <input type="time" class="form-control" id="time" required data-validation-required-message="Įrašykite atvykimo laiką.">
+          </div>
+        </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Pasirinkto patiekalo pavadinimas:</label>
+            <input type="text" class="form-control" id="meal" required data-validation-required-message="Įrašykite pasirinkto patiekalo pavadinimą.">
+          </div>
+        </div>
+        <div id="success"></div>
+        <!-- For success/fail messages -->
+        <button type="submit" class="btn btn-primary" id="sendMessageButton">Patvirtinti</button>
+      </form>
     </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
-
-    <!-- Contact form JavaScript -->
-    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-  </body>
-
-</html>
+  </div>
+</div>
