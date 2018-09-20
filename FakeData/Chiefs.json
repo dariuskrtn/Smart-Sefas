@@ -5,7 +5,7 @@
       "Name": "Dwight",
       "Surname": "Schrute",
       "Education": "Phd. in theoretical physics",
-      "Description": "I can do cool stuff out of not so cool stuff",
+      "Description": "Dwight is trained in the art of surveillance, and is a former Lackawanna County volunteer sheriff's deputy.[6] He has a purple belt in Goju-Ryu karate, and is the senpai at his dojo.[7] Dwight is a pop culture and sci-fi enthusiast, who has expressed fanship of many sci-fi movies and popular television series. In the episode The Fire, he mentioned the movie The Crow as being his favorite film. He hints at belief in fictional creatures such as androids, zombies and vampires",
       "Location": "Vilnius",
       "VisitRadius": 15,
       "Tags": ["Sushi", "Japanese", "Chinese"],
@@ -25,7 +25,27 @@
       "Name": "Michael",
       "Surname": "Scott",
       "Education": "Nothing",
-      "Description": "Cooking in The Office.",
+      "Description": "Cooking in The Office. Due to his overall lack of common sense, Michael can withstand significant abuse from his peers and is often the butt of jokes. He is quick to take offense when he realizes he is being wronged and his response is often disproportionate to the harm suffered; similarly, he tends to unintentionally offend people, but will usually sincerely apologize on the rare occasion that he realizes he has inadvertently insulted someone.",
+      "Location": "Vilnius",
+      "VisitRadius": 20,
+      "Tags": ["Burgers", "Stuff", "Acid", "Meth"],
+      "OccupiedCalendar": [
+        {
+          "From": "2018-10-26 12:00:00",
+          "To": "2018-10-26 18:00:00"
+        },
+        {
+          "From": "2018-10-27 15:00:00",
+          "To": "2018-10-27 18:00:00"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "Kevin",
+      "Surname": "Malone",
+      "Education": "Nothing",
+      "Description": "Proud owner of an unnamed bar at the address 30/30 Adams. Kevin received a job as an accountant at Dunder Mifflin after applying for a job in the warehouse because Michael Scott had 'a feeling about him.' Kevin was engaged to a woman named Stacey, who has a daughter named Abby. Stacey was the fourth woman to whom Kevin proposed, but the first to say yes, and he was very happy, though he secretly considered her a second choice to one of the other women, Melissa Riley.",
       "Location": "Vilnius",
       "VisitRadius": 20,
       "Tags": ["Burgers", "Stuff", "Acid", "Meth"],
